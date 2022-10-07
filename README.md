@@ -1,12 +1,12 @@
 # class-16-09
-Task 1
+### Task 1
 Given a string made up of letters a, b, and/or c, switch the position of letters a and b (change a to b and vice versa). Leave any incidence of c untouched.
 Example:
 'acb' --> 'bca'
 'aabacbaa' --> 'bbabcabb'
 
-My solution
-
+### My solution
+```Java
   public class Switch {
     public static String switcheroo(String x) {
       String[] Letters = x.split("");
@@ -19,9 +19,10 @@ My solution
           return x;
     }
   }
+```
 
 Fav solution
-
+```Java
   class Switch {
 
     public static String switcheroo(String x) {
@@ -29,9 +30,10 @@ Fav solution
     }
 
   }
+  ```
 I liked that they created additional letter what was enough for using a library method.
 
-Task 2
+### Task 2
 
 Write a function to convert a name into initials. This kata strictly takes two words with one space in between them.
 The output should be two capital letters with a dot separating them.
@@ -39,8 +41,8 @@ It should look like this:
 Sam Harris => S.H
 patrick feeney => P.F
 
-My solution
-
+### My solution
+```Java
   public class AbbreviateTwoWords {
 
     public static String abbrevName(String name) {
@@ -52,9 +54,10 @@ My solution
           return ch1 + "." + ch2;
     }
   }
+```
 
-
-Fav solution
+### Fav solution
+```Java
   public class AbbreviateTwoWords {
 
     public static String abbrevName(String name) {
@@ -62,4 +65,5 @@ Fav solution
     }
 
   }
+  ```
 Just leave it here
